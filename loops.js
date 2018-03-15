@@ -8,5 +8,5 @@ function forLoop(array) {
   }
   return array
 }
-var ahmet = []
-console.log(ahmet)
+
+console.log(forLoop(ahmet))
