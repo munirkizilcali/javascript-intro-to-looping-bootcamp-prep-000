@@ -24,7 +24,11 @@ function doWhileLoop(array) {
   do {
   array.pop()
   } while(array.lenght > 0 && maybeTrue())
+  return array
 }
 
+var ahmet = [1, 2, 3, 4, 5]
+console.log(doWhileLoop(ahmet))
 
+console]
  
